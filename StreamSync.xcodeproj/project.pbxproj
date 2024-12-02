@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		825381292CFCC65E00BF0E34 /* TwitchSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825381282CFCC65E00BF0E34 /* TwitchSearchView.swift */; };
+		8253812B2CFCCCE500BF0E34 /* TwitchPlayerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8253812A2CFCCCE500BF0E34 /* TwitchPlayerMainView.swift */; };
+		8253812F2CFCD23A00BF0E34 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8253812E2CFCD23A00BF0E34 /* LocationManager.swift */; };
+		825381312CFCD3A400BF0E34 /* MyRadioSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825381302CFCD3A400BF0E34 /* MyRadioSearchView.swift */; };
+		825381332CFCD3D300BF0E34 /* MyRadioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825381322CFCD3D300BF0E34 /* MyRadioPlayerView.swift */; };
+		825381352CFCE56E00BF0E34 /* AudioBufferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825381342CFCE56E00BF0E34 /* AudioBufferManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8253810C2CFCC0E800BF0E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825380F32CFCC0E400BF0E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 825380FA2CFCC0E400BF0E34;
+			remoteInfo = StreamSync;
+		};
+		825381162CFCC0E800BF0E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825380F32CFCC0E400BF0E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 825380FA2CFCC0E400BF0E34;
+			remoteInfo = StreamSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		825380FB2CFCC0E400BF0E34 /* StreamSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8253810B2CFCC0E800BF0E34 /* StreamSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		825381152CFCC0E800BF0E34 /* StreamSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		825381282CFCC65E00BF0E34 /* TwitchSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchSearchView.swift; sourceTree = "<group>"; };
+		8253812A2CFCCCE500BF0E34 /* TwitchPlayerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchPlayerMainView.swift; sourceTree = "<group>"; };
+		8253812E2CFCD23A00BF0E34 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		825381302CFCD3A400BF0E34 /* MyRadioSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRadioSearchView.swift; sourceTree = "<group>"; };
+		825381322CFCD3D300BF0E34 /* MyRadioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRadioPlayerView.swift; sourceTree = "<group>"; };
+		825381342CFCE56E00BF0E34 /* AudioBufferManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBufferManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8253812D2CFCD20B00BF0E34 /* Exceptions for "StreamSync" folder in "StreamSync" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 825380FA2CFCC0E400BF0E34 /* StreamSync */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		825380FD2CFCC0E400BF0E34 /* StreamSync */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8253812D2CFCD20B00BF0E34 /* Exceptions for "StreamSync" folder in "StreamSync" target */,
+			);
+			path = StreamSync;
+			sourceTree = "<group>";
+		};
+		8253810E2CFCC0E800BF0E34 /* StreamSyncTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StreamSyncTests;
+			sourceTree = "<group>";
+		};
+		825381182CFCC0E800BF0E34 /* StreamSyncUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StreamSyncUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		825380F82CFCC0E400BF0E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825381082CFCC0E800BF0E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825381122CFCC0E800BF0E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		825380F22CFCC0E400BF0E34 = {
+			isa = PBXGroup;
+			children = (
+				825381342CFCE56E00BF0E34 /* AudioBufferManager.swift */,
+				825381322CFCD3D300BF0E34 /* MyRadioPlayerView.swift */,
+				825381302CFCD3A400BF0E34 /* MyRadioSearchView.swift */,
+				8253812E2CFCD23A00BF0E34 /* LocationManager.swift */,
+				8253812A2CFCCCE500BF0E34 /* TwitchPlayerMainView.swift */,
+				825381282CFCC65E00BF0E34 /* TwitchSearchView.swift */,
+				825380FD2CFCC0E400BF0E34 /* StreamSync */,
+				8253810E2CFCC0E800BF0E34 /* StreamSyncTests */,
+				825381182CFCC0E800BF0E34 /* StreamSyncUITests */,
+				825380FC2CFCC0E400BF0E34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		825380FC2CFCC0E400BF0E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				825380FB2CFCC0E400BF0E34 /* StreamSync.app */,
+				8253810B2CFCC0E800BF0E34 /* StreamSyncTests.xctest */,
+				825381152CFCC0E800BF0E34 /* StreamSyncUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		825380FA2CFCC0E400BF0E34 /* StreamSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8253811F2CFCC0E800BF0E34 /* Build configuration list for PBXNativeTarget "StreamSync" */;
+			buildPhases = (
+				825380F72CFCC0E400BF0E34 /* Sources */,
+				825380F82CFCC0E400BF0E34 /* Frameworks */,
+				825380F92CFCC0E400BF0E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				825380FD2CFCC0E400BF0E34 /* StreamSync */,
+			);
+			name = StreamSync;
+			packageProductDependencies = (
+			);
+			productName = StreamSync;
+			productReference = 825380FB2CFCC0E400BF0E34 /* StreamSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8253810A2CFCC0E800BF0E34 /* StreamSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825381222CFCC0E800BF0E34 /* Build configuration list for PBXNativeTarget "StreamSyncTests" */;
+			buildPhases = (
+				825381072CFCC0E800BF0E34 /* Sources */,
+				825381082CFCC0E800BF0E34 /* Frameworks */,
+				825381092CFCC0E800BF0E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8253810D2CFCC0E800BF0E34 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8253810E2CFCC0E800BF0E34 /* StreamSyncTests */,
+			);
+			name = StreamSyncTests;
+			packageProductDependencies = (
+			);
+			productName = StreamSyncTests;
+			productReference = 8253810B2CFCC0E800BF0E34 /* StreamSyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		825381142CFCC0E800BF0E34 /* StreamSyncUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825381252CFCC0E800BF0E34 /* Build configuration list for PBXNativeTarget "StreamSyncUITests" */;
+			buildPhases = (
+				825381112CFCC0E800BF0E34 /* Sources */,
+				825381122CFCC0E800BF0E34 /* Frameworks */,
+				825381132CFCC0E800BF0E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				825381172CFCC0E800BF0E34 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				825381182CFCC0E800BF0E34 /* StreamSyncUITests */,
+			);
+			name = StreamSyncUITests;
+			packageProductDependencies = (
+			);
+			productName = StreamSyncUITests;
+			productReference = 825381152CFCC0E800BF0E34 /* StreamSyncUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		825380F32CFCC0E400BF0E34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					825380FA2CFCC0E400BF0E34 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					8253810A2CFCC0E800BF0E34 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 825380FA2CFCC0E400BF0E34;
+					};
+					825381142CFCC0E800BF0E34 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 825380FA2CFCC0E400BF0E34;
+					};
+				};
+			};
+			buildConfigurationList = 825380F62CFCC0E400BF0E34 /* Build configuration list for PBXProject "StreamSync" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 825380F22CFCC0E400BF0E34;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 825380FC2CFCC0E400BF0E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				825380FA2CFCC0E400BF0E34 /* StreamSync */,
+				8253810A2CFCC0E800BF0E34 /* StreamSyncTests */,
+				825381142CFCC0E800BF0E34 /* StreamSyncUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		825380F92CFCC0E400BF0E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825381092CFCC0E800BF0E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825381132CFCC0E800BF0E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		825380F72CFCC0E400BF0E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825381332CFCD3D300BF0E34 /* MyRadioPlayerView.swift in Sources */,
+				825381312CFCD3A400BF0E34 /* MyRadioSearchView.swift in Sources */,
+				825381352CFCE56E00BF0E34 /* AudioBufferManager.swift in Sources */,
+				8253812B2CFCCCE500BF0E34 /* TwitchPlayerMainView.swift in Sources */,
+				8253812F2CFCD23A00BF0E34 /* LocationManager.swift in Sources */,
+				825381292CFCC65E00BF0E34 /* TwitchSearchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825381072CFCC0E800BF0E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825381112CFCC0E800BF0E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8253810D2CFCC0E800BF0E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 825380FA2CFCC0E400BF0E34 /* StreamSync */;
+			targetProxy = 8253810C2CFCC0E800BF0E34 /* PBXContainerItemProxy */;
+		};
+		825381172CFCC0E800BF0E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 825380FA2CFCC0E400BF0E34 /* StreamSync */;
+			targetProxy = 825381162CFCC0E800BF0E34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8253811D2CFCC0E800BF0E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8253811E2CFCC0E800BF0E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		825381202CFCC0E800BF0E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StreamSync/Preview Content\"";
+				DEVELOPMENT_TEAM = 849VZYFWA7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StreamSync/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "L'app utilizza la posizione per suggerire fonti di streaming locali.\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauriziocannata.StreamSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		825381212CFCC0E800BF0E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StreamSync/Preview Content\"";
+				DEVELOPMENT_TEAM = 849VZYFWA7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StreamSync/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "L'app utilizza la posizione per suggerire fonti di streaming locali.\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauriziocannata.StreamSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		825381232CFCC0E800BF0E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 849VZYFWA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauriziocannata.StreamSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreamSync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StreamSync";
+			};
+			name = Debug;
+		};
+		825381242CFCC0E800BF0E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 849VZYFWA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauriziocannata.StreamSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreamSync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StreamSync";
+			};
+			name = Release;
+		};
+		825381262CFCC0E800BF0E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 849VZYFWA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauriziocannata.StreamSyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StreamSync;
+			};
+			name = Debug;
+		};
+		825381272CFCC0E800BF0E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 849VZYFWA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauriziocannata.StreamSyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StreamSync;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		825380F62CFCC0E400BF0E34 /* Build configuration list for PBXProject "StreamSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8253811D2CFCC0E800BF0E34 /* Debug */,
+				8253811E2CFCC0E800BF0E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8253811F2CFCC0E800BF0E34 /* Build configuration list for PBXNativeTarget "StreamSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825381202CFCC0E800BF0E34 /* Debug */,
+				825381212CFCC0E800BF0E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825381222CFCC0E800BF0E34 /* Build configuration list for PBXNativeTarget "StreamSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825381232CFCC0E800BF0E34 /* Debug */,
+				825381242CFCC0E800BF0E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825381252CFCC0E800BF0E34 /* Build configuration list for PBXNativeTarget "StreamSyncUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825381262CFCC0E800BF0E34 /* Debug */,
+				825381272CFCC0E800BF0E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 825380F32CFCC0E400BF0E34 /* Project object */;
+}
